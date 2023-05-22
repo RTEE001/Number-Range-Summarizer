@@ -48,7 +48,7 @@ public class NumberRangeSummarizerImplementation implements NumberRangeSummarize
         return summary.toString();
     }
 
-    public boolean isStrictlyNumbers(String input) {
+    private boolean isStrictlyNumbers(String input) {
         if (input == null || input.isEmpty()) {
             return true;
         }
